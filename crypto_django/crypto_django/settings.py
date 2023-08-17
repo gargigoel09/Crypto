@@ -39,9 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'crypto_app',
     'ratelimit',
-    'celery',
-    'celery.task',
-    'django_celery_beat',
+    # 'celery',
+    # 'celery.task',
+    # 'django_celery_beat',
 ]
 
 MIDDLEWARE = [
@@ -127,17 +127,17 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CELERY_BROKER_URL = 'redis://localhost:6379/0'
-CELERY_ACCEPT_CONTENT = ['json']
-CELERY_TASK_SERIALIZER = 'json'
-CELERY_RESULT_SERIALIZER = 'json'
-CELERY_TIMEZONE = 'UTC'
-CELERY_IMPORTS = ('crypto_app.tasks',)  # Replace with your actual app name
+# CELERY_BROKER_URL = 'redis://localhost:6379/0'
+# CELERY_ACCEPT_CONTENT = ['json']
+# CELERY_TASK_SERIALIZER = 'json'
+# CELERY_RESULT_SERIALIZER = 'json'
+# CELERY_TIMEZONE = 'UTC'
+# CELERY_IMPORTS = ('crypto_app.tasks',)  # Replace with your actual app name
 
 
-CELERY_BEAT_SCHEDULE = {
-    'update-coin-prices': {
-        'task': 'crypto_app.tasks.update_coin_prices',
-        'schedule': 300,
-    },
-}
+# CELERY_BEAT_SCHEDULE = {
+#     'update-coin-prices': {
+#         'task': 'crypto_app.tasks.update_coin_prices',
+#         'schedule': 300,
+#     },
+# }
