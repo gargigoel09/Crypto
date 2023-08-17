@@ -1,5 +1,3 @@
-
-https://github.com/gargigoel09/Crypto/assets/136559641/831b7b7b-6c56-4173-ad59-1f9d8effba79
 # Crypto Tracker
 This is a django web application to fetch coin prices for different cryptocurrencies. Coingecko API is used to fetch data using requests.
 ## Get started
