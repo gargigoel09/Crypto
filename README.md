@@ -36,5 +36,5 @@ The project is set up and will run on your localhost.
 <img width="960" alt="Screenshot 2023-08-17 144332" src="https://github.com/gargigoel09/Crypto/assets/136559641/c2dd011e-b2f5-4950-9d4b-6b5778ef9e7c">
 
 ## Demo
-[https://drive.google.com/file/d/1LVoebNgSHpRswavaXkNFO6RUk5FdwC_j/view?usp=sharing](url)
-
+[https://drive.google.com/file/d/1_y8KRwY38kwIZM4hpATstpshg-7CLAE5/view?usp=sharing
+](url)
